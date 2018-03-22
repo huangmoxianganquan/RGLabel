@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RGLabel_Tests' do
+  pod 'RGLabel', :path => '../'
+  
+  
+end

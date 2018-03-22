@@ -1,0 +1,6 @@
+framework module RGLabel {
+  umbrella header "RGLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_RGLabel_Tests {
+  umbrella header "Pods-RGLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

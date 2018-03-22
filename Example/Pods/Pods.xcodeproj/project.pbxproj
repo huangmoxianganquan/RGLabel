@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058EBE4CB036E35F43E02AB5141A3B83 /* Pods-RGLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0725AEEC2F6EC1C14593757EF941B19A /* Pods-RGLabel_Tests-dummy.m */; };
+		14D994EBFD06C624E02F13B0C926A370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		319C91988645B3D63EA067501F0C00DE /* RGLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E9CA6A825785B9B17CEF428E135AA5 /* RGLabel-dummy.m */; };
+		9DAB811A20634C9C002E591C /* RGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB811820634C9C002E591C /* RGLabel.m */; };
+		9DAB811B20634C9C002E591C /* RGLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAB811920634C9C002E591C /* RGLabel.h */; };
+		BD1DD798D95D2E3345BF4B83DC792F14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EA6D58376B6E26AC0FDE4033E316925C /* RGLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D13661E32A57CFB2B29327478C7991 /* RGLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6AE7DE2ACECF35831885A694CBCB79 /* Pods-RGLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3315AFF7E58C69FD66448D4D3A1F9DEE /* Pods-RGLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0ACBAF7E7EFC3C8B987BB94A5E96C82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D88C9B86D6A7EEA46088CD747BC0C0;
+			remoteInfo = RGLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0725AEEC2F6EC1C14593757EF941B19A /* Pods-RGLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RGLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		09D13661E32A57CFB2B29327478C7991 /* RGLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGLabel-umbrella.h"; sourceTree = "<group>"; };
+		227616761175135A719B5133FB3FE306 /* Pods-RGLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3315AFF7E58C69FD66448D4D3A1F9DEE /* Pods-RGLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RGLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4715683EB129100EB8E418035B47110E /* Pods_RGLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4916FB25CB4B7908FFEA7592DE954B5C /* RGLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RGLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6D59B2F3711A30EFE1B13D09F5A475 /* Pods-RGLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53BC249DD0CA8DEF83CB0578AD540BBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE1270C7A6A08B66F804C188F1AA80C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E6B78E6D4A125A7D43158306D84F28A /* RGLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RGLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		616918303A212701BC6C80E3CD698EB6 /* RGLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGLabel-prefix.pch"; sourceTree = "<group>"; };
+		6549817EE5FDCB9071DB0E4BE915BAB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77E9CA6A825785B9B17CEF428E135AA5 /* RGLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RGLabel-dummy.m"; sourceTree = "<group>"; };
+		8CA916CBE13CFE07BADEEBABD54D138F /* Pods-RGLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RGLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90F51D9195285978C1E5F35163AEE92D /* RGLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RGLabel.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BCDADDE4ADA56758E2897D0DBEAE901 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9DAB811820634C9C002E591C /* RGLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RGLabel.m; path = RGLabel/RGLabel/RGLabel.m; sourceTree = "<group>"; };
+		9DAB811920634C9C002E591C /* RGLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RGLabel.h; path = RGLabel/RGLabel/RGLabel.h; sourceTree = "<group>"; };
+		AE28EC5DC82D598A4B21D299CE60D8A1 /* Pods-RGLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RGLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		B8A523D8484BE6FE652F26E58D960EF6 /* Pods-RGLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C0E23AB5DB682990EDA23ECBF0F63FA3 /* Pods-RGLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C50C3E137B3A7140EB0EED69A7F75C22 /* RGLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RGLabel.modulemap; sourceTree = "<group>"; };
+		DF41677010D616FD487E131E537CE035 /* Pods-RGLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E0EC49E71F94E41B68F06EA50096A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D994EBFD06C624E02F13B0C926A370 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5AD494622FB3D5A92C92B5DBEE41DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1DD798D95D2E3345BF4B83DC792F14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39EB0A6A5741B8117C128A87F85E0C08 /* RGLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB811920634C9C002E591C /* RGLabel.h */,
+				9DAB811820634C9C002E591C /* RGLabel.m */,
+				CCF88C23E8410A0AA155019BC3C4F734 /* Pod */,
+				F615436A4B296531074DE31BD0FB1AF3 /* Support Files */,
+			);
+			name = RGLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		54E9683BEF45F0ECA5064A337F2E197B /* Pods-RGLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE1270C7A6A08B66F804C188F1AA80C /* Info.plist */,
+				AE28EC5DC82D598A4B21D299CE60D8A1 /* Pods-RGLabel_Tests.modulemap */,
+				8CA916CBE13CFE07BADEEBABD54D138F /* Pods-RGLabel_Tests-acknowledgements.markdown */,
+				4B6D59B2F3711A30EFE1B13D09F5A475 /* Pods-RGLabel_Tests-acknowledgements.plist */,
+				0725AEEC2F6EC1C14593757EF941B19A /* Pods-RGLabel_Tests-dummy.m */,
+				C0E23AB5DB682990EDA23ECBF0F63FA3 /* Pods-RGLabel_Tests-frameworks.sh */,
+				DF41677010D616FD487E131E537CE035 /* Pods-RGLabel_Tests-resources.sh */,
+				3315AFF7E58C69FD66448D4D3A1F9DEE /* Pods-RGLabel_Tests-umbrella.h */,
+				227616761175135A719B5133FB3FE306 /* Pods-RGLabel_Tests.debug.xcconfig */,
+				B8A523D8484BE6FE652F26E58D960EF6 /* Pods-RGLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-RGLabel_Tests";
+			path = "Target Support Files/Pods-RGLabel_Tests";
+			sourceTree = "<group>";
+		};
+		5C84FC0FF85A3D9CEB9D9194667E266A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4715683EB129100EB8E418035B47110E /* Pods_RGLabel_Tests.framework */,
+				4916FB25CB4B7908FFEA7592DE954B5C /* RGLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C864A5B3F04E2E27BFF341A7EF15ACB9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5C84FC0FF85A3D9CEB9D9194667E266A /* Products */,
+				D050313CA22DFC6B2F5548DC5BA11297 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C864A5B3F04E2E27BFF341A7EF15ACB9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39EB0A6A5741B8117C128A87F85E0C08 /* RGLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CCF88C23E8410A0AA155019BC3C4F734 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6549817EE5FDCB9071DB0E4BE915BAB3 /* LICENSE */,
+				9BCDADDE4ADA56758E2897D0DBEAE901 /* README.md */,
+				5E6B78E6D4A125A7D43158306D84F28A /* RGLabel.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D050313CA22DFC6B2F5548DC5BA11297 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54E9683BEF45F0ECA5064A337F2E197B /* Pods-RGLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F615436A4B296531074DE31BD0FB1AF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53BC249DD0CA8DEF83CB0578AD540BBA /* Info.plist */,
+				C50C3E137B3A7140EB0EED69A7F75C22 /* RGLabel.modulemap */,
+				90F51D9195285978C1E5F35163AEE92D /* RGLabel.xcconfig */,
+				77E9CA6A825785B9B17CEF428E135AA5 /* RGLabel-dummy.m */,
+				616918303A212701BC6C80E3CD698EB6 /* RGLabel-prefix.pch */,
+				09D13661E32A57CFB2B29327478C7991 /* RGLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RGLabel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C081EE9787F540DFD5AE53C07479A86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAB811B20634C9C002E591C /* RGLabel.h in Headers */,
+				FF6AE7DE2ACECF35831885A694CBCB79 /* Pods-RGLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCC9FFB10DD9241232DACA8C1553B7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6D58376B6E26AC0FDE4033E316925C /* RGLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07D88C9B86D6A7EEA46088CD747BC0C0 /* RGLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3318E9170440E61A095932537461F6A /* Build configuration list for PBXNativeTarget "RGLabel" */;
+			buildPhases = (
+				A936B9293CB94EECEEE27C842AA3D41B /* Sources */,
+				D5AD494622FB3D5A92C92B5DBEE41DD3 /* Frameworks */,
+				ABCC9FFB10DD9241232DACA8C1553B7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGLabel;
+			productName = RGLabel;
+			productReference = 4916FB25CB4B7908FFEA7592DE954B5C /* RGLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD50E1FF6A4BC811723D1A9F28259053 /* Pods-RGLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33B440E6D045C3E1269665ED945C2B2 /* Build configuration list for PBXNativeTarget "Pods-RGLabel_Tests" */;
+			buildPhases = (
+				34CBE2C1CCAC9F0C01BCD81044DED00A /* Sources */,
+				35E0EC49E71F94E41B68F06EA50096A4 /* Frameworks */,
+				9C081EE9787F540DFD5AE53C07479A86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C566D26E9E54427B763D9B11AF8A9E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-RGLabel_Tests";
+			productName = "Pods-RGLabel_Tests";
+			productReference = 4715683EB129100EB8E418035B47110E /* Pods_RGLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5C84FC0FF85A3D9CEB9D9194667E266A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD50E1FF6A4BC811723D1A9F28259053 /* Pods-RGLabel_Tests */,
+				07D88C9B86D6A7EEA46088CD747BC0C0 /* RGLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CBE2C1CCAC9F0C01BCD81044DED00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058EBE4CB036E35F43E02AB5141A3B83 /* Pods-RGLabel_Tests-dummy.m in Sources */,
+				9DAB811A20634C9C002E591C /* RGLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A936B9293CB94EECEEE27C842AA3D41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319C91988645B3D63EA067501F0C00DE /* RGLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C566D26E9E54427B763D9B11AF8A9E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RGLabel;
+			target = 07D88C9B86D6A7EEA46088CD747BC0C0 /* RGLabel */;
+			targetProxy = D0ACBAF7E7EFC3C8B987BB94A5E96C82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9FA219907DCA8BE9B141F9ED7F53FA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227616761175135A719B5133FB3FE306 /* Pods-RGLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RGLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGLabel_Tests/Pods-RGLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB89F7966E177A2A81023B27EADBE075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F51D9195285978C1E5F35163AEE92D /* RGLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RGLabel/RGLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RGLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RGLabel/RGLabel.modulemap";
+				PRODUCT_NAME = RGLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0180927471A733485FF057BC6E4E605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A523D8484BE6FE652F26E58D960EF6 /* Pods-RGLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RGLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGLabel_Tests/Pods-RGLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE227F0E7DC26F1BD1C004DBD2F8A30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F51D9195285978C1E5F35163AEE92D /* RGLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RGLabel/RGLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RGLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RGLabel/RGLabel.modulemap";
+				PRODUCT_NAME = RGLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3318E9170440E61A095932537461F6A /* Build configuration list for PBXNativeTarget "RGLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE227F0E7DC26F1BD1C004DBD2F8A30A /* Debug */,
+				AB89F7966E177A2A81023B27EADBE075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33B440E6D045C3E1269665ED945C2B2 /* Build configuration list for PBXNativeTarget "Pods-RGLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA219907DCA8BE9B141F9ED7F53FA11 /* Debug */,
+				D0180927471A733485FF057BC6E4E605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
